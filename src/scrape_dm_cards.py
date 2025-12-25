@@ -9,7 +9,8 @@ import time
 
 BASE_DOMAIN = "https://dm.takaratomy.co.jp"
 START_URL = "https://dm.takaratomy.co.jp/card/"
-CSV_FILE = "cards.csv"
+BASE_DIR = os.path.dirname(__file__)
+CSV_FILE = os.path.join(BASE_DIR, "data", "cards.csv")
 
 HEADERS = {
     "User-Agent": (

@@ -240,4 +240,4 @@ def main(start_page=1, end_page=None):
 
 
 if __name__ == "__main__":
-    main(start_page=247, end_page=423)
+    main(start_page=1, end_page=1)

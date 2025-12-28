@@ -1,0 +1,7 @@
+pandas==2.2.3
+chromadb==0.5.23
+ollama==0.4.4
+chardet==5.2.0
+python-dotenv==1.0.1
+numpy<2.0.0
+discord.py==2.4.0

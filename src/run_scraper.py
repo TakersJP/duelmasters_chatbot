@@ -221,12 +221,12 @@ def main(start_page=1, end_page=None):
                     new_cards_count += 1
                     print(f"  ✅ 追加: {name}")
 
-                print(f"📊 ページ {page} 完了: {new_cards_count}枚の新規カードを追加")
+                print(f"ページ {page} 完了: {new_cards_count}枚の新規カードを追加")
                 
                 page += 1
                 time.sleep(SLEEP_SEC)
 
-        print("\n🎉 === 全カード取得完了 ===")
+        print("\n=== 全カード取得完了 ===")
 
     except KeyboardInterrupt:
         print("\n⚠️  ユーザーによる中断") #ctrl+cで強制終了可能
@@ -240,4 +240,4 @@ def main(start_page=1, end_page=None):
 
 
 if __name__ == "__main__":
-    main(start_page=1, end_page=1)
+    main(start_page=76, end_page=423)

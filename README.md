@@ -8,6 +8,8 @@
 
 将来的には**カード検索をもっと直感的・高速にするツール**になる予定です。
 
+[Click Here for the English Version of this README](README_ENG.md)
+
 ---
 
 ## 2025年12月29日までの開発状況
